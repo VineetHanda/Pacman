@@ -309,25 +309,25 @@ public class PlayPanel extends Game implements Runnable, KeyListener {
 
                 break;
             case GAMEOVER:
-                g2d.setColor(Color.WHITE);
+                g2d.setColor(Color.GRAY);
                 g2d.drawString("Your Score was: " + score, 287, 170);
                 g2d.drawString("Press ESC to exit", 596, 592);
                 g2d.setFont(new Font("Arial", 1, 30));
-                g2d.setColor(Color.WHITE);
+                g2d.setColor(Color.GRAY);
                 g2d.drawString("Game Over", 256, 140);
                 g2d.setFont(new Font("Papyrus", 1, 20));
-                g2d.setColor(Color.WHITE);
+                g2d.setColor(Color.GRAY);
                 if (timeup)
                     g2d.drawString("Time Up", 295, 90);
                 gameoverback.paintIcon(this, g2d, 0, 300);
                 break;
 
             case COMPLETED:
-                g2d.setColor(Color.WHITE);
+                g2d.setColor(Color.GRAY);
                 g2d.drawString("Your Score was: " + score, 287, 170);
                 g2d.drawString("Press ESC to exit", 596, 592);
                 g2d.setFont(new Font("Tempus Sans ITC", 1, 26));
-                g2d.setColor(Color.WHITE);
+                g2d.setColor(Color.GRAY);
                 g2d.drawString("Congratulations Level 1 Completed", 124, 140);
                 gameoverback.paintIcon(this, g2d, 0, 300);
                 break;

@@ -64,7 +64,7 @@ public class Background implements Runnable {
 
             //instructionsframe.setBounds(width/2,(height/11)-2,600,600);
 
-            instructionsframe.setSize(700, 600);
+            instructionsframe.setSize(800, 600);
             instructionsframe.setResizable(false);
             instructionsframe.setLocationRelativeTo(null);
 
