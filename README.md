@@ -6,13 +6,13 @@ Technologies
 `Java` `Swing API` `Graphics API` `Multithreading` `Photoshop`
 
 <img src="resources/project_screenshots/img.png">
-----
+
 <img src="resources/project_screenshots/img_4.png">
-----
+
 <img src="resources/project_screenshots/img_5.png">
-----
+
 <img src="resources/project_screenshots/img_1.png">
-----
+
 <img src="resources/project_screenshots/img_3.png">
-----
+
 <img src="resources/project_screenshots/img_6.png">
